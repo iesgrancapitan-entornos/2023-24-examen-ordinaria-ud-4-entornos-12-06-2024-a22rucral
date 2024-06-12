@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENUNCIADO &mdash; documentación de Examen_Entornos - 0.0.1</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=6fcc102b"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=efdbd0b9"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="prev" title="Perro module" href="Perro.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Examen_Entornos
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="modules.html">proyect</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">ENUNCIADO</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Examen_Entornos</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">ENUNCIADO</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/enunciado.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="enunciado">
+<h1>ENUNCIADO<a class="headerlink" href="#enunciado" title="Link to this heading"></a></h1>
+<p># Examen Tema 4 Entornos de Desarrollo - 1DAW</p>
+<p><strong>*Refactorización, Documentación y control de versiones*</strong></p>
+<p>El examen se divide en 3 bloques claramente diferenciados: Refactorización, Documentación y control de versiones. Cada uno de ellos con una puntuación sobre 10. <strong>Para dar por superado el RA relacionado con el tema 4, se deben aprobar las 3 partes</strong>.</p>
+<p>En cada apartado se indica la puntuación y que parte corresponden. Las 3 se puntúan sobre 10</p>
+<p>Sigue detalladamente las instrucciones del examen. Cualquier duda, pregunta a tu profesor.</p>
+<ol class="arabic simple">
+<li><p>En el repositorio tienes en código fuente que será la base sobre la cual desarrollaremos el examen. Dividiremos el examen en 3 partes, y las utilizaremos para desarrollar las versiones de git y github. Evidentemente, usaremos las buenas prácticas de git y github que hemos estado trabajando durante el curso</p></li>
+</ol>
+<p>### Ramas y Merge I</p>
+<ol class="arabic simple">
+<li><p>Para el workflow del examen, utilizaremos las siguientes ramas: desarrollo, refactorización, documentación. Créalas cuando se te indique.</p></li>
+<li><p>Crea la rama «desarrollo»</p></li>
+</ol>
+<p>## Refactorización</p>
+<ol class="arabic simple" start="3">
+<li><p>Crea la rama «refactorizacion» a partir de la rama desarrollo y cambiate a esa rama <strong>*(CV - 0.125 puntos)*</strong></p></li>
+<li><p>Haz las refactorizaciones que necesites para que «Guau» sea un campo de la clase Perro llamado «ladra». <strong>*(RF - 4 puntos)*</strong></p></li>
+<li><p>Compromete el estado actual con el mensaje «Refactorizacion 1 Perro - Nombre y Apellidos» <strong>*(CV - 0.25 puntos)*</strong></p></li>
+<li><p>Extrae una superclase a partir de la clase «Coche» llamada «Vehículo» con los campos:</p>
+<ol class="arabic simple">
+<li><p>num_serie</p></li>
+<li><p>fabricante</p></li>
+<li><p>color</p></li>
+</ol>
+</li>
+<li><p>Compromete el estado actual con el mensaje «Refactorizacion 2 Superclase Vehículo - Nombre y Apellidos». <strong>*(RF - 6 puntos)*</strong></p></li>
+<li><p>Fusiona la rama «refactorizacion» en la rama «desarrollo» <strong>*(CV - 0.25 puntos)*</strong></p></li>
+</ol>
+<p>## Documentación</p>
+<ol class="arabic simple" start="9">
+<li><p>Crea la rama «documentacion» a partir de la rama desarrollo y cambiate a esa rama <strong>*(CV - 0.25 puntos)*</strong></p></li>
+<li><p>Documenta con el formato Docstring «reStructuredText» las clases y los métodos para que aparezcan sus descripciones, autor, descripción de los parámetros y devoluciones de cada método. Compromete el estado actual con el mensaje «Documentación 1 - Nombre y Apellidos» <strong>*(DOC - 2.5 puntos)*</strong></p></li>
+<li><p>Añade todos los rst necesarios para que aparezca la documentación de todos las clases <strong>*(DOC - 1 punto)*</strong></p></li>
+<li><p>Añade en el index un rst para que haya un enlace donde aparezca el enunciado completo del examen <strong>*(DOC - 1 punto)*</strong></p></li>
+<li><p>Añade en la documentación: <strong>*(DOC - 3 puntos)*</strong>
+1. Autor: Tu nombre y apellidos
+2. Nombre del proyecto «Examen Entornos»
+3. Versión: una versión con notación <strong>*»versionado semántico»*</strong>
+4. copyright: El que tu quieras
+5. Añade las extensiones «autodoc, intersphinx, todo, mathjax, napoleon, autosummary
+6. Usa el tema «sphinx_rtd_theme»</p></li>
+<li><p>Genera la documentación html usando la generación de documentación sphinx y guárdalo en tu repositorio en una carpeta que se llame «doc». Compromete el estado actual con el mensaje «Documentación 2 Sphinx - Nombre y Apellidos» <strong>*(DOC - 2.5 puntos)*</strong></p></li>
+</ol>
+<p>## Control de Versiones</p>
+<p>### Pull Request</p>
+<ol class="arabic" start="15">
+<li><p>Abre un pull request llamado «añadir sphinx» para añadir los cambios de la rama «documentación» en la rama «desarrollo» <strong>*(CV - 0.25 puntos)*</strong></p></li>
+<li><p>Realiza lo siguiente en el pull request:  <strong>*(CV - 1 punto)*</strong></p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Añade a tu profesor como Reviewers</p></li>
+<li><p>Asignate el pull request</p></li>
+<li><p>Aplica al pull request el label documentation</p></li>
+<li><p>Crea el milestone «examen»</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Incorpora los cambios a la rama desarrollo comentando y cerrando el pull request a la vez con el siguiente mensaje y referenciando a tu profesor al final: «Refactorizando y añadiendo documentación» <strong>*(CV - 0.5 puntos)*</strong></p></li>
+</ol>
+<p>### Fork y Pull Request</p>
+<ol class="arabic simple" start="18">
+<li><p>Actualiza tu repositorio, si no lo has hecho ya.</p></li>
+<li><p>Antes de hacer el fork, tienes que configurar tu repositorio como público.</p></li>
+<li><p>Realiza un fork del repositorio del examen a tu cuenta de github. <strong>*(CV - 0.5 puntos)*</strong></p></li>
+<li><p>En el repositorio forkado, crea una rama a partir de la rama desarrollo llamada «add_title» y modifica la etiqueta title del index.html con tu nombre y apellidos</p></li>
+<li><p>Compromete los cambios con la etiqueta «pull request add title Nombre y apellidos» <strong>*(CV - 0.125 puntos)*</strong></p></li>
+<li><p>Realiza un pull request de la rama <strong>add_title</strong> de tu repositorio forkado sobre la rama <strong>desarrollo</strong> del repositorio del examen llamado «Añadir título» <strong>*(CV - 1 punto)*</strong></p></li>
+<li><p>Acepta los cambios y haz un merge de tu pull request <strong>*(CV - 0.5 puntos)*</strong></p></li>
+<li><p>No borres el repositorio de tu cuenta hasta que el examen esté corregido</p></li>
+</ol>
+<p>### Issues</p>
+<ol class="arabic simple" start="26">
+<li><p>Observa los issues que deberías tener en tu repositorio de examen.</p></li>
+<li><p>Enlaza uno de ellos al pull request Feedback que ya tienes abierto en tu repositorio del examen <strong>*(CV - 0.375 puntos)*</strong></p></li>
+<li><p>Ciérralos con un solo commit que contenga en la etiqueta «Cerrando Issues - Nombre y Apellidos» <strong>*(CV - 1 punto)*</strong></p></li>
+</ol>
+<p>### Ramas y Merge II</p>
+<ol class="arabic simple" start="29">
+<li><p>Fusiona la rama desarrollo en la rama main <strong>*(CV - 0.25 puntos)*</strong></p></li>
+</ol>
+<p>### Github Pages</p>
+<ol class="arabic simple" start="30">
+<li><p>Crea una página con tu repositorio de la rama main. En la url «tu_url_github_page/repositorioexamen/ruta_hacia_index.html_generado_por_sphinx» debe aparecer tu documentación html generada <strong>*(CV - 0.5 puntos)*</strong></p></li>
+</ol>
+<p>### Tags y Releases</p>
+<ol class="arabic simple" start="31">
+<li><p>Añade un tag en el primer commit del repositorio de la rama main con la v0.0.1 y la descripción «Primera versión alpha - Nombre y Apellidos» <strong>*(CV - 1 punto)*</strong></p></li>
+<li><p>Añade otro tag en el último commit (sin crear otro commit nuevo) con la v1.0.0 «Primera Release Candidate - Nombre y Apellidos» <strong>*(CV - 0.5 puntos)*</strong></p></li>
+<li><p>Sube sólo los tags al repositorio y comprueba que se han añadido mirando en la pestaña release <strong>*(CV - 0.5 puntos)*</strong></p></li>
+</ol>
+<p>###  Gitlab</p>
+<ol class="arabic simple" start="34">
+<li><p>Crea un repositorio en el grupo de Entornos de gitlab. Añádelo a tu repositorio local y súbelo. Deberás tener el mismo repositorio tanto en github como gitlab <strong>*(CV - 1.25 puntos)*</strong></p></li>
+</ol>
+<p>##  Nota</p>
+<p><strong>*En caso de cualquier duda y/o errata, será resuelta durante la realización del examen*</strong></p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="Perro.html" class="btn btn-neutral float-left" title="Perro module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2024, Alejandro Ruiz.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
